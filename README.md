@@ -1,36 +1,32 @@
-# Desafio-Pr-tico-Visualiza-o-de-Dados-de-Estoque-com-Matplotlib
-Visualização de Dados de Estoque com Matplotlib
+#  Visualização de Dados de Estoque com Matplotlib  
 
-Este projeto apresenta quatro visualizações gráficas em Python, desenvolvidas com Matplotlib, para representar diferentes aspectos de um sistema de gestão de estoques.
+##  Descrição  
+Este projeto apresenta quatro visualizações gráficas desenvolvidas em **Python** utilizando a biblioteca **Matplotlib**, com o objetivo de representar informações de um sistema de **gestão de estoques** de forma clara e intuitiva.  
 
- Gráficos Criados
+---
 
-Fluxo de Estoque Semanal
+##  Gráficos Criados  
 
-Tipo: Linha (plt.plot)
+### 1️ Fluxo de Estoque Semanal  
+- **Tipo:** Linha (`plt.plot`)  
+- **Descrição:** Mostra a variação da quantidade em estoque ao longo de sete dias.  
 
-Mostra a variação da quantidade em estoque ao longo de sete dias.
+### 2️ Estoque por Categoria de Produto  
+- **Tipo:** Barras (`plt.bar`)  
+- **Descrição:** Compara a quantidade disponível de produtos como **teclado**, **mouse**, **monitor** e **webcam**.  
 
-Estoque por Categoria de Produto
+### 3️ Proporção do Valor de Estoque por Categoria  
+- **Tipo:** Pizza (`plt.pie`)  
+- **Descrição:** Exibe a proporção do valor total de estoque entre **eletrônicos**, **vestuário** e **alimentos**.  
 
-Tipo: Barras (plt.bar)
+### 4️ Relação entre Preço e Quantidade em Estoque  
+- **Tipo:** Dispersão (`plt.scatter`)  
+- **Descrição:** Analisa a relação entre o **preço unitário** e a **quantidade disponível** de cada produto.  
 
-Compara a quantidade de produtos como teclados, mouses, monitores e webcams.
+---
 
-Proporção do Valor de Estoque por Categoria
+##  Tecnologias Utilizadas  
+-  **Python 3**  
+-  **Biblioteca:** Matplotlib  
 
-Tipo: Pizza (plt.pie)
-
-Exibe a porcentagem do valor total de estoque entre eletrônicos, vestuário e alimentos.
-
-Relação entre Preço e Quantidade em Estoque
-
-Tipo: Dispersão (plt.scatter)
-
-Analisa a correlação entre o preço dos produtos e suas quantidades disponíveis.
-
- Tecnologias
-
-Python 3
-
-Biblioteca: Matplotlib
+---
